@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>LEAVE LETTER</title>
+   <script src="https://kit.fontawesome.com/4488f618d5.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="LEAVELETTERGENERATOR.CSS">
+   <script src="LEAVELETTERGENERATOR.JS"></script>
+</head>
+<body>
+    <div id="div1">
+        <h2 id="head"><span id="heading">LEAVE LETTER</span></h2>
+    </div>
+    <div id="div2">
+        <h1 id="h1"><span id="change">HEADING</span></h1>
+        <input type="range" id="range" min="0" max="100" value="0" oninput="range()">
+        <input type="color" id="col1" oninput="col1()">
+    </div>
+    <div id="div3">
+        <h1 id="background">BACKGROUND</h1>
+        <i class="fa-solid fa-align-left" id="left" onclick="left()"></i>
+        <i class="fa-solid fa-align-center" id="center" onclick="center()" ></i>
+        <i class="fa-solid fa-align-justify" id="justify" onclick="justify()"></i>
+        <i class="fa-solid fa-align-right" id="right" onclick="right()"></i>
+        <input type="color" id="col2" oninput="col2()">
+    </div>
+    <div id="div4">
+        <h1 id="h1"> <strong id="fontcolor">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, fuga!</strong></h1>
+        <input type="color" id="col3" oninput="col3()">
+    </div>
+    <div id="div5">
+        <form action="./LLGOUTPUT.HTML">
+        <table>
+            <tr>
+                <td class="name">FROM NAME</td>
+                <td class="ex">:</td>
+                <td><input type="text"  placeholder="NAME" class="Name" id="fmname"><br></td>  
+            </tr>
+           
+            <tr>
+                <td class="name">FROM ADDRESS</td>
+                <td class="ex">:</td>
+                <td> <input type="text" placeholder="ADDRESS" class="Name" id="fmaddress"><br></td>  
+            </tr>
+            <tr>
+                <td class="name">TODAYS DATE</td>
+                <td class="ex">:</td>
+                <td> <input type="date" placeholder="DATE" class="Name" id="today"><br></td>  
+            </tr>
+            <tr>
+                <td class="name">TO NAME</td>
+                <td class="ex">:</td>
+                <td> <input type="text" placeholder="NAME" class="Name" id="tname"></td>  
+            </tr>
+            <tr>
+                <td class="name">TO ADDRESS</td>
+                <td class="ex">:</td>
+                <td> <input type="text" placeholder="TO ADDRESS" class="Name" id="taddress"><br></td>  
+            </tr>
+            <tr>
+                <td class="name">SUB
+                    <select name="CATEGORY" id="category">
+                        <option value="CATEGORY" >CATEGORY</option>
+                        <option value="SIR">SIR</option>
+                        <option value="MADAM">MADAM</option>
+                    </select>
+                </td>
+                <td class="ex">:</td>
+                <td> <input type="text" placeholder="SUBJECT" class="Name" id="subject"></td>  
+            </tr>
+            <tr>
+                <td class="name">REASON</td>
+                <td class="ex">:</td>
+                <td> <input type="text" placeholder="REASON" class="Name" id="reason"></td>  
+            </tr>
+            <tr>
+                <td class="name">FROM</td>
+                <td class="ex">:</td>
+                <td id="TO"> <input type="date" placeholder="DATE" class="Name" id="frmdate">
+                  TO
+                <input type="date" placeholder="DATE" class="Name"  id="ltdate"></td>  
+            </tr>
+            <tr>
+                <td class="name">NUMBER OF DAYS</td>
+                <td class="ex">:</td>
+                <td> <input type="text" placeholder="NUMBER OF DAYS" class="Name" id="nofdays"><br></td>  
+            </tr>
+            <tr></tr><tr></tr><tr></tr><tr></tr>
+            
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="submit" value="GENERATE THE LETTER" class="Name" id="subbtn" onclick="storinginputdata()">
+                </td>
+            </tr>
+        </table>
+       </form>
+    </div>
+
+</body>
+</html>

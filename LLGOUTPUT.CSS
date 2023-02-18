@@ -1,0 +1,138 @@
+#toName
+{
+  font-size: 33px;
+  position: relative;
+  top:-100px;
+  left: 5px;
+}
+#to
+{
+  font-size: 33px;
+  position: relative;
+  top:-90px;
+  left: 5px;
+}
+#date
+{
+  font-size: 25px;
+  position: relative;
+  top:-185px;
+  left: 1050px;
+}
+#todayDate
+{
+ position: relative;
+ top:-240px;
+ left: 1125px;
+ 
+}
+#place
+{
+  font-size: 30px;
+  position: relative;
+  top:-150px;
+  right: -1060px;
+}
+#subject
+{
+  font-size: 18px;
+  position: relative;
+  top:-10px;
+  left:60px;
+}
+#Category
+{
+  position: relative;
+  top:-70px;
+  left:190px;
+}
+#body
+{
+  font-size: 35px;
+  position: relative;
+  top:-420px ;
+  left:160px;
+}   
+#leave
+{
+   position: relative;
+   font-size: 35px;
+   left:175px;
+   top: -255px;
+}
+#nofDays
+{
+    position: relative;
+    font-size: 35px;
+    left:155px;
+    top: -318px;
+}
+#Reason
+{
+    position: relative;
+    font-size: 28px;
+    left:350px;
+    top:-2px;
+}
+#thank
+{
+    position: relative;
+    left:450px;
+    top: -430px;
+} 
+#from3
+{
+    position: relative;
+    font-size: 35px;
+    left: 565px;
+    top: -444px;
+}
+#ys
+{
+    font-size: 28px;
+    position: relative;
+    top: -440px;
+    left:970px;
+}
+#nme
+{
+    font-size: 28px;
+    position: relative;
+    top: -440px; ;
+    left:1000px;    
+}
+#sign
+{
+    font-size: 28px;
+    position: relative;
+    left:1000px;
+    top: -440px; ;
+}
+#fromDate
+{
+    position: relative;
+    font-size: 35px;
+    left: 665px;
+    top: -60px;
+}
+#to2
+{
+    position: relative;
+    font-size: 35px;
+    left: 830px;
+    top: -125px;
+}
+#toDate
+{
+    position: relative;
+    font-size: 35px;
+    left: 875px;
+    top: -187px;
+}
+#toAddres
+{
+  position: absolute;
+  top:385px;
+  left: 10px;
+}
+
